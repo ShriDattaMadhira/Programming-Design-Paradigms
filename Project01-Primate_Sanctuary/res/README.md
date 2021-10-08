@@ -38,13 +38,11 @@ DESCRIPTION OF EXAMPLES
 ------------------------
 I am submitting 4 example runs. We start with relatively easy input to check the correctness of various features that we implemented. We check for exception handling in the later runs.
 
-Run 1 :
-========
+### Run 1 :
 /res/MSD_Run_1.txt - Simple test run to check if all the functions are working as expected.
 
 
-Run 2:
-========
+### Run 2:
 /res/MSD_Run_2.txt - Testing moves to enclosure.
 EXCEPTION-1: What happens when we try to add a new monkey and there are no isolation cages empty.
 EXCEPTION-2: What happens when we try to move monkey to enclosure with no space.
@@ -52,8 +50,7 @@ EXCEPTION-3: What happens when we try to move monkey already in enclosure to enc
 EXCEPTION-4: What happens when we try to move a monkey that is not in the Sanctuary.
 
 
-Run 3:
-========
+### Run 3:
 /res/MSD_Run_3.txt - Testing moves to isolation. 
 EXCEPTION-1: What happens when we try to move monkey already in isolation to isolation. 
 EXCEPTION-2: What happens when we try to add a new monkey and there are no isolation cages empty.
@@ -61,8 +58,7 @@ EXCEPTION-3: What happens when we try to move a monkey that is not in the Sanctu
 EXCEPTION-4: What happens when we try to move monkey to isolation with no space.
 
 
-Run 4:
-========
+### Run 4:
 /res/MSD_Run_4.txt - Testing additional functionality.
 * Behavior of search species (lookup species) when given species that are not housed in the Sanctuary.
 * Behavior of produce sign method when invalid enclosure is given.
