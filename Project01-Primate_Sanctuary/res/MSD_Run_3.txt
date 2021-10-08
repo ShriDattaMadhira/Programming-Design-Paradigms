@@ -1,0 +1,57 @@
+
+====================================================================================================
+==========================================RUN - 3===================================================
+====================================================================================================
+
+Sanctuary Name: Jungle Friends Primate Sanctuary
+Number of Isolation cages in the sanctuary: 3
+Number of Enclosures in the sanctuary: 2
+
+
+Adding the newly acquired monkeys (m-01, m-02, m-03) to isolation for further checkups.
+Present locations of monkeys: {m-01=Isolation-0, m-02=Isolation-1, m-03=Isolation-2}
+
+Moving monkey m-01 to isolation...
+EXCEPTION-1 :  Monkey already in Isolation. Cage Number: 0.
+
+
+New arrival m-04 moving to isolation for further medical observation...
+EXCEPTION-2 : Sorry!! No Space in Isolation for a new monkey. Looking for space in other Sanctuaries...
+
+
+Moving m-05 to isolation...
+EXCEPTION-3 : This monkey is not one of ours...
+
+
+m-03 is cleared from medical observation and is being moved to Enclosure.
+
+
+New arrival m-04 moving to isolation for further medical observation...
+Problem with m-03 and it is being moved back to isolation.
+EXCEPTION-4 :  No space for monkey in Isolation. .
+
+
+m-01 and m-02 are cleared from medical observation and are being moved to Enclosure.
+Present position of monkeys: {m-01=Enclosure-0, m-02=Enclosure-1, m-05=Isolation-2}
+
+Updated locations of monkeys: {m-01=Enclosure-0, m-02=Enclosure-1, m-05=Isolation-2}
+
+-----------ALL SPECIES AND THEIR LOCATIONS IN THE SANCTUARY------------
+{baboon=[Enclosure-1], driller=[Enclosure-0], mangabey=[Isolation-2]}
+
+-----------ALL MONKEYS AND THEIR LOCATIONS IN THE SANCTUARY------------
+{m-01=Enclosure-0, m-02=Enclosure-1, m-05=Isolation-2}
+
+-------------------LOOK UP SPECIES IN THE SANCTUARY--------------------
+DRILLER is housed in: Enclosure-0 
+
+
+-------------------SHOPPING LIST FOR THE SANCTUARY-------------------
+{leaves=450, nuts=90, meat=550}
+
+------------------------SIGN FOR GIVEN ENCLOSURE-----------------------
+Enclosure-0 houses: 
+[[m-01, m, nuts]]
+
+------------------------SEARCH FOR FOOD-----------------------
+Quantity of meat available: 550
