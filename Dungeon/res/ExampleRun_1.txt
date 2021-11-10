@@ -1,0 +1,55 @@
+EXAMPLE RUN - 1
+---------------
+This run demonstrates the following,
+    1. A wrapping dungeon,
+    2. The player starting at the start and reaching the end, and
+    3. The player's location and description at each step.
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Enter the width of your dungeon (should be > 0).
+7
+Enter the height of your dungeon (should be > 0).
+5
+Enter if your dungeon is wrapping or not [1-Wrapping, 0-Not Wrapping].
+1
+Enter the interconnectivity of your dungeon (should be >= 0).
+8
+Enter the treasure percentage in your dungeon (should be > 0).
+25
+START LOCATION: [0, 2] ||| END LOCATION: [4, 5]
+
+Position: [0, 2] || In a Cave || Bag: []
+Possible moves: [WEST, NORTH, SOUTH, EAST]
+The below sequence of consecutive west and east directions will show you that the dungeon is wrapping.
+====================================================
+Position: [0, 1] || In a Cave || Bag: []
+Possible moves: [SOUTH, EAST, WEST, NORTH]
+Position: [0, 0] || In a Cave || Bag: []
+Possible moves: [NORTH, SOUTH, EAST, WEST]
+Position: [0, 6] || In a Tunnel || Bag: []
+Possible moves: [SOUTH, EAST]
+Position: [0, 0] || In a Cave || Bag: []
+Possible moves: [NORTH, SOUTH, EAST, WEST]
+Position: [0, 1] || In a Cave || Bag: []
+Possible moves: [SOUTH, EAST, WEST, NORTH]
+Position: [0, 2] || In a Cave || Bag: []
+Possible moves: [WEST, NORTH, SOUTH, EAST]
+====================================================
+Position: [1, 2] || In a Cave || Bag: []
+Possible moves: [SOUTH, EAST, NORTH]
+Position: [2, 2] || In a Cave || Bag: []
+Possible moves: [SOUTH, WEST, EAST, NORTH]
+Position: [3, 2] || In a Tunnel || Bag: []
+Possible moves: [NORTH, SOUTH]
+Position: [4, 2] || In a Cave || Bag: []
+Possible moves: [NORTH, EAST, SOUTH]
+Position: [4, 3] || In a Cave || Bag: []
+Possible moves: [WEST, EAST, SOUTH]
+Position: [4, 4] || In a Cave || Bag: []
+Possible moves: [WEST, EAST, SOUTH]
+Position: [4, 5] || In a Cave || Bag: []
+Possible moves: [WEST, SOUTH, EAST, NORTH]
+
+You are the end location. GAME OVER!
+
+Process finished with exit code 0
