@@ -1,0 +1,93 @@
+==========================WELCOME TO FIGHT CLUB==========================
+
+INITIALIZING THE CHARACTERS....
+Player 1 details 
+Player{strength=17, constitution=16, dexterity=18, charisma=16, playerID=1, activeGear=gear.GearEmptyNode@1f32e575, weapon=Hands}
+Player 2 details 
+Player{strength=13, constitution=14, dexterity=15, charisma=18, playerID=2, activeGear=gear.GearEmptyNode@2ff4acd0, weapon=Hands}
+
+================================================================================================================================================
+
+Players 1 and 2 are entering the arena...
+
+Players getting equipped with gear and weapons...
+
+Ladies and Gentlemen... Presenting you the players for tonight's fight...
+
+Player ID = 1
+Strength = 16
+Constitution = 15
+Dexterity = 10
+Charisma = 23
+Health = 64
+Weapon = Two Handed Sword
+Gear = [ Head Gear, Potion, Potion, Potion, Potion, Potion, Potion, Potion, Potion, Potion, Potion, Belt-Large, Belt-Small, Belt-Medium, Belt-Medium, Foot Wear]
+
+Player ID = 2
+Strength = 11
+Constitution = 10
+Dexterity = 6
+Charisma = 20
+Health = 47
+Weapon = Broad Sword
+Gear = [ Head Gear, Potion, Potion, Potion, Potion, Potion, Potion, Belt-Large, Belt-Small, Belt-Small, Belt-Large, Foot Wear]
+
+
+Let the battle begin....
+
+turn = Player-1, successfulStrike = 1, damage = 16, opponent health = 31
+turn = Player-2, successfulStrike = 1, damage = 5, opponent health = 59
+turn = Player-1, successfulStrike = 1, damage = 14, opponent health = 17
+turn = Player-2, successfulStrike = 1, damage = 2, opponent health = 57
+turn = Player-1, successfulStrike = 1, damage = 18, opponent health = -1
+
+
+The winner of the battle between p1 and p2 is Player-1
+
+Unsatisfied with the result. Do you want a re-match? [y-Yes, n-No]
+y
+
+================================================================================================================================================
+
+Players 1 and 2 are entering the arena...
+
+Players getting equipped with gear and weapons...
+
+Ladies and Gentlemen... Presenting you the players for tonight's fight...
+
+Player ID = 1
+Strength = 12
+Constitution = 10
+Dexterity = 1
+Charisma = 17
+Health = 40
+Weapon = Flail
+Gear = [ Head Gear, Potion, Potion, Potion, Potion, Potion, Potion, Potion, Belt-Large, Belt-Large, Belt-Medium, Foot Wear]
+
+Player ID = 2
+Strength = 13
+Constitution = 8
+Dexterity = 10
+Charisma = 22
+Health = 53
+Weapon = Katana
+Gear = [ Head Gear, Potion, Potion, Potion, Belt-Large, Belt-Medium, Belt-Small, Belt-Small, Belt-Medium]
+
+
+Let the battle begin....
+
+turn = Player-2, successfulStrike = 1, damage = 15, opponent health = 25
+turn = Player-1, successfulStrike = 0, damage = 0, opponent health = 53
+turn = Player-2, successfulStrike = 1, damage = 14, opponent health = 11
+turn = Player-1, successfulStrike = 0, damage = 0, opponent health = 53
+turn = Player-2, successfulStrike = 1, damage = 15, opponent health = -4
+
+
+The winner of the battle between p1 and p2 is Player-2
+
+Unsatisfied with the result. Do you want a re-match? [y-Yes, n-No]
+n
+
+We hope to see you soon...
+
+Process finished with exit code 0
